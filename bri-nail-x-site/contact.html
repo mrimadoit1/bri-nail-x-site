@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — bri.nail.x</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="contact">
+    <h2>Book an Appointment & Contact</h2>
+    <p>Follow me on Instagram or fill out the form below to book a session!</p>
+    <a href="https://instagram.com/bri.nail.x" target="_blank" class="instagram-btn">@bri.nail.x</a>
+
+    <form action="https://formspree.io/f/xldyllav" method="POST" style="max-width:400px; margin:0 auto; display:flex; flex-direction:column; gap:15px;">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="date" name="date" required>
+        <select name="service" required>
+            <option value="">Select Service</option>
+            <option value="Manicure">Manicure</option>
+            <option value="Pedicure">Pedicure</option>
+            <option value="Nail Art">Nail Art</option>
+            <option value="Gel & Acrylic">Gel & Acrylic</option>
+        </select>
+        <textarea name="message" placeholder="Additional notes..." rows="3"></textarea>
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 bri.nail.x • Follow me on Instagram @bri.nail.x
+</footer>
+</body>
+</html>
